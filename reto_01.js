@@ -4,7 +4,7 @@ const giftWithoutRepeat = [1,2,3,4,5]
 const giftIds = [2,1, 3, 5, 3, 2]
 const giftIds2 = [5, 1, 5, 1]
 
-function findFirstRepeated(gifts) {
+export function findFirstRepeated(gifts) {
     if(gifts.length == 0) return -1
     else {
         const repeated = new Map()
